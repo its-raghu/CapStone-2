@@ -6,10 +6,6 @@ body{
     margin: 0;
     padding: 0;
 }
-.head{
-    position: relative;
-    background-color: #0174BE;
-}
 .sun{
     position: absolute;
     right: 20px;
@@ -23,6 +19,7 @@ body{
     font-size: 6rem;
     font-family: 'PT Serif', serif;
     color: #0C356A;
+    margin-top: 180px;
 }
 .sub-name{
     font-size: 3rem;
@@ -30,8 +27,6 @@ body{
     color: #0C356A;
     margin: 0;
 }
-
-
 .raghu{
     border-radius: 50%;
     height: 250px;
@@ -52,6 +47,7 @@ h2{
     font-family: 'Jost', sans-serif;
 }
 h3{
+    font-size: 2rem;
     color: #0174BE;
 }
 hr{
