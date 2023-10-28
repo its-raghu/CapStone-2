@@ -3,11 +3,11 @@
 
 body{
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .head{
     position: relative;
-    top: 0;
-    left: 0;
     background-color: #0174BE;
 }
 .sun{
@@ -23,9 +23,7 @@ body{
     font-size: 6rem;
     font-family: 'PT Serif', serif;
     color: #0C356A;
-    margin-top: 200px;
 }
-
 .sub-name{
     font-size: 3rem;
     font-family: 'PT Serif', serif;
