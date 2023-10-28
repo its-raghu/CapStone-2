@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jost:wght@300&family=Jua&family=Libre+Baskerville&family=Merriweather&family=Playpen+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Jost:wght@300&family=Jua&family=Libre+Baskerville&family=Merriweather&family=PT+Serif:ital@1&family=Playpen+Sans:wght@400;500&display=swap');
+
+body{
+    text-align: center;
+}
+.head{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #0174BE;
+}
+.sun{
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.moon{
+    position: absolute;
+    left: 20px;
+}
+.name{
+    font-size: 6rem;
+    font-family: 'PT Serif', serif;
+    color: #0C356A;
+    margin-top: 200px;
+}
+
+.sub-name{
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+    color: #0C356A;
+    margin: 0;
+}
+
+
+.raghu{
+    border-radius: 50%;
+    height: 250px;
+    margin-top:250px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    max-width: 80%;
+    margin: 100px auto 0 auto;
+}
+h2{
+    color:  #0C356A;
+    font-size: 2.5rem;
+    font-family: 'Jost', sans-serif;
+}
+h3{
+    color: #0174BE;
+}
+hr{
+    margin: 80px ;
+    border: white;
+}
+button{
+    background-color: #0C356A;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.footer{
+    background-color: #0C356A;
+    margin-top: 34px;
+    padding: 20px;
+    color: white;
+}
